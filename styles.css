@@ -1,0 +1,91 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #000;
+    padding: 10px;
+    position: relative; /* Add this line to establish a new positioning context */
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo img {
+    width: 100px;
+    height: auto;
+}
+
+.sign-in-button {
+    position: absolute; /* Add this line to use absolute positioning */
+    top: 10px; /* Adjust the top value as needed to position the button */
+    right: 10px; /* Adjust the right value as needed to position the button */
+}
+
+.sign-in-button button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+}
+
+.sign-in-button button:hover {
+    background-color: #d10811;
+}
+
+.main {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.hero-section {
+    background-image: url("hero_background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    text-align: center;
+    color: #fff;
+}
+
+.hero-content h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.hero-content p {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #e50914;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.2s;
+}
+
+button:hover {
+    background-color: #d10811;
+}
